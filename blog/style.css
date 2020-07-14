@@ -28,11 +28,17 @@ body a{
 	-ms-transition: 0.5s all ease;
 }
 p{
-	margin:0;
+    margin:0;
+    color: #000;
 }
 ul,label{
 	margin:0;
-	padding:0;
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Raleway-Regular';
+    line-height: 1.8em;
+    text-align: justify;
+
 }
 body a:hover{
 	text-decoration:none;
@@ -347,8 +353,10 @@ ul.navig li a.active{
 	display:inline-block;
 }
 .about-two ul li p{
-	color:#999;
-	font-size:17px;
+	color: black;
+    font-size:20
+    
+    px;
 }
 .about-two ul li a span{
 	background:url(../images/social.png) no-repeat;
@@ -962,11 +970,12 @@ h3.ghj {
 	color:#a1cd3d;
 }
 .single-grid p {
-	font-size: 14px;
+	font-size: 17px;
     font-family: 'Raleway-Regular';
-    color: #999;
+    color: black;
     line-height: 1.8em;
     margin-top: 1.5%;
+    text-align: justify;
 }
 .comments h1,.comment-bottom h2{
 	font-size:2.5em;
@@ -1207,8 +1216,9 @@ ul.navig li a {
     font-size: 17px;
 }
 .single-grid p {
-    font-size: 13px;
+    font-size: 17px;
     margin-top: 1%;
+    text-align: justify;
 }
 .media-body p {
     font-size: 13px;
