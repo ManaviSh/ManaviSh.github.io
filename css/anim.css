@@ -38,7 +38,7 @@
 }
 @media screen and (max-width: 700px) {
     .final {
-        left: 41%;
+        left: 38%;
         top:46%;
     }
   }
@@ -76,7 +76,14 @@
     animation: position2 1s 3s forwards,
                 fade 1s 3.3s forwards;
 }
-
+@media screen and (max-width: 700px) {
+    .surname {
+        margin-top:25%;
+        animation: position2_edit 1s 3s forwards,
+                fade 1s 3.3s forwards;
+    }
+    
+  }
 .typewriter h1 {
     font-family: monospace;
     letter-spacing: .15em;
@@ -107,7 +114,10 @@ to{margin-top:5%;}
 from{margin-top:35%;}
 to{margin-top:-18%;}
 }
-
+@keyframes position2_edit{
+    from{margin-top:25%;}
+    to{margin-top:-18%;}
+    }
 @keyframes rotate{
     100%{-webkit-transform-origin: center center;
         -webkit-transform:rotate(90deg);}
