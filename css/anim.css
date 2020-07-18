@@ -78,7 +78,7 @@
 }
 @media screen and (max-width: 700px) {
     .surname {
-        margin-top:25%;
+        margin-top:5%;
         animation: position2_edit 1s 3s forwards,
                 fade 1s 3.3s forwards;
     }
@@ -115,7 +115,7 @@ from{margin-top:35%;}
 to{margin-top:-18%;}
 }
 @keyframes position2_edit{
-    from{margin-top:25%;}
+    from{margin-top:5%;}
     to{margin-top:-18%;}
     }
 @keyframes rotate{
